@@ -1,6 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 
 import re
@@ -11,9 +9,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
 
 id_pattern = re.compile(r'^.\d+$')
@@ -24,10 +19,6 @@ def is_enabled(value, default):
         return False
     else:
         return default
-
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
       
 # Owner Information
 API_ID = int(environ.get("API_ID", "27006293"))
@@ -35,7 +26,7 @@ API_HASH = environ.get("API_HASH", "8b79d9e496fb6dd00bb377c2b5c46498")
 ADMINS = int(environ.get("ADMINS", "6417982276"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://ydavji:<QTHXJMQkfK4KVZTb>@cluster0.qgcnwyu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "cloneyjbotz")
 DB_URI = environ.get("DB_URI", "mongodb+srv://YADAV:YADAV@cluster0.kwnrtte.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "yjbotz")
@@ -64,9 +55,7 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 # File Stream Config
 class Var(object):
@@ -95,7 +84,4 @@ class Var(object):
 
 
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
     
